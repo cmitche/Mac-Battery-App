@@ -108,6 +108,8 @@ State of Charge (%): 47
 - [Regex Debugging Tool](https://regex101.com/)
 - [How to read JSON with Javascript](https://qawithexperts.com/article/javascript/read-json-file-with-javascript/380)
 - [How to create a simple shell script](https://www.tecmint.com/create-shell-scripts-in-linux/)
+- [How to read file in shell](https://www.tutorialspoint.com/unix_commands/cat.htm)
+- [How to assign variables in shell](https://www.tecmint.com/assign-linux-command-output-to-variable/)
 - [How to run script at mac start up](https://www.karltarvas.com/2020/09/11/macos-run-script-on-startup.html)
-- Schedule shell scripts using cron
 - [Run shortcuts from command line](https://support.apple.com/guide/shortcuts-mac/run-shortcuts-from-the-command-line-apd455c82f02/mac)
+- Schedule shell scripts using cron

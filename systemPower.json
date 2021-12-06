@@ -6,7 +6,7 @@
         "sppower_battery_at_critical_level" : "FALSE",
         "sppower_battery_fully_charged" : "FALSE",
         "sppower_battery_is_charging" : "FALSE",
-        "sppower_battery_state_of_charge" : 35
+        "sppower_battery_state_of_charge" : 58
       },
       "sppower_battery_health_info" : {
         "sppower_battery_cycle_count" : 8,

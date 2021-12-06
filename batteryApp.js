@@ -8,7 +8,7 @@ let lowThreshold = 35; // 35% charge
 
 let chargeComputer = false;
 
-fs.promises.readFile('./sampleOutput.json', 'utf-8')
+fs.promises.readFile('./systemPower.json', 'utf-8')
     .then(string => {
         const data = JSON.parse(string);
         const batteryChargeInfo = data.SPPowerDataType[0].sppower_battery_charge_info;
@@ -32,6 +32,12 @@ fs.promises.readFile('./sampleOutput.json', 'utf-8')
         } else if(battery.percentage <= lowThreshold && battery.isCharging === "FALSE"){
             chargeComputer = 1;
             fs.writeFile('./result.txt', `${chargeComputer}`, (err) => {
+                if (err){
+                    console.log(err);
+                }
+            });
+        } else {
+            fs.writeFile('./result.txt', 'do nothing', (err) => {
                 if (err){
                     console.log(err);
                 }
